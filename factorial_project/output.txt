@@ -1,0 +1,33 @@
+=== Sample program runs ===
+Input: 0
+Enter a non-negative integer: 0! = 1
+
+Input: 5
+Enter a non-negative integer: 5! = 120
+
+Input: 10
+Enter a non-negative integer: 10! = 3628800
+
+Input: 20
+Enter a non-negative integer: 20! = 2432902008176640000
+
+Input: -4
+Enter a non-negative integer: Error: Factorial is not defined for negative numbers
+
+Input: abc
+Enter a non-negative integer: Error: invalid literal for int() with base 10: 'abc'
+
+=== Test case results ===
+test_large_number (__main__.TestFactorial.test_large_number) ... ok
+test_negative_raises (__main__.TestFactorial.test_negative_raises) ... ok
+test_non_integer_raises (__main__.TestFactorial.test_non_integer_raises) ... ok
+test_one (__main__.TestFactorial.test_one) ... ok
+test_recursive_matches_iterative (__main__.TestFactorial.test_recursive_matches_iterative) ... ok
+test_recursive_negative_raises (__main__.TestFactorial.test_recursive_negative_raises) ... ok
+test_small_numbers (__main__.TestFactorial.test_small_numbers) ... ok
+test_zero (__main__.TestFactorial.test_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
